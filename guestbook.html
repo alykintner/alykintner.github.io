@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <title>Mr. and Mrs. Rowe</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="title">
+            <h1>Welcome to Our Beginning</h1>
+        
+        </div></div>
+        
+        <div class="nav">
+                <a href="index.html">Our Story</a>
+                <a href="details.html">Wedding Details</a>
+                <a href="registry.html">Gift Registry</a>
+                <a href="rsvp.html">RSVP</a>
+                <a href="guestbook.html">Virtual Guestbook</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+
+
+
+
+    <div class="container">
+<form action="guestbook.html" method="post">
+    <h2>Please Sign Our Virtual Guestbook</h2>
+
+        <label for="name">First and Last Name</label>
+        <br>
+            <input type="text" id="name" name="user_name">
+            <br><br>
+        <label for="address">Mailing Address</label>
+        <br>
+            <input type="text" id="address" name="user_address">
+            <br><br>
+        <label for="email">Email Address</label>
+        <br>
+            <input type="email" id="email" name="user_email">
+            <br><br>
+        <label for="message">Your Message</label>
+        <br>
+            <textarea id="message" name="user_message">
+
+            </textarea>
+            <br><br>
+
+        <button type="submit" onclick="submitGuestbook()">Submit</button>
+
+
+</form></div>
+
+<script src="script.js"></script>
+</body>
+</html>

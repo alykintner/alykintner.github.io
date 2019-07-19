@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Oswald|Playfair+Display&display=swap');
+
+body {
+    font: 12px playfair display;
+    text-align: center;
+}
+
+/* font styles */
+
+p {
+    text-align: justify;
+    font: 13px playfair display;
+}
+
+i {
+    color: #616161;
+}
+
+b {
+    font-style: italic;
+}
+
+li {
+    color: #580105;
+    text-align: left;
+}
+
+h1 {
+    font: 45px great vibes;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font: 35px playfair display;
+    text-align: center;
+}
+
+.title-f {
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+
+}
+
+/* page navigation styles */
+
+.nav {
+    display: flex;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.nav a {
+    background-color: gray;
+    font: 15px oswald;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 2px;
+    flex-grow: 1;
+}
+
+.nav a:hover {
+    background-color: #580105;
+    letter-spacing: 3px;
+}
+
+
+
+.banner, .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.container {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+    order: 1;
+}
+
+.column img {
+    width: auto;
+}
+
+.details {
+    padding: 20px;
+}
+
+.page-image {
+    flex-shrink: 1;
+}
+
+img {
+    width: 100%;
+}
+
+.stats {
+    width: 15%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: center;
+    line-height: 30px;
+    font: 16px;
+    color: gray;
+
+
+}
+
+
+
+
+/* html form customization */
+form {
+    background-color: lightgray;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 6px #000;
+}
+
+input {
+    width: 50%;
+    font: 15px oswald;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: auto;
+}
+
+
+label {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+textarea {
+    text-align: center;
+    font: 15px oswald;
+    width: 60%;
+    height: 10%;
+}
+
+button {
+    width: 40%;
+    font: 20px oswald;
+    text-transform: uppercase;
+}
+
+
+
+
+/* media queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+h2 {
+    font-size:50px;
+}
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .hide {
+        display:none;
+    }
+
+    .container {
+        flex-wrap:nowrap;
+    }
+
+    .nav {
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:stretch;
+        margin-top:0px;
+    }
+
+    .nav a {
+        background-color:#000;
+    }
+
+
+
+    .title {
+        position:absolute;
+        top:450px;
+        width:100%;
+        height:60px;
+    }
+
+    .banner {
+        position:relative;
+        width:auto;
+        height:600px;
+        background-image:url("Images/banner2.jpg");
+        background-position: center;
+        background-repeat:none;
+        background-color:#000;
+        opacity:0.8;
+    }
+
+    h1 {
+        color:#fff;
+        font-size:60px;
+    }
+
+
+    .details {
+        width:30%;
+        padding-top:0px;
+        padding-right:100px;
+        
+    }
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+
+.clearfix {
+    overflow: auto;
+  }
