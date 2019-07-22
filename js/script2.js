@@ -1,3 +1,4 @@
+// The below js is used to post the user submissions onto the new page
 var guestbookInfo = JSON.parse(sessionStorage.getItem('guestbook'));
 
 var guestName = guestbookInfo.name;
