@@ -22,11 +22,11 @@
     <a href="guestbook.html">Virtual Guestbook</a>
     </div>
 
-    <div class="container">
+    <div class="container" id="form-container">
         <div class="form-fields">
             <h2>RSVP to Our Wedding</h2>
             <label for="name">First and Last Name</label>
-                <br>
+                <br />
                 <input type="text" id="name" name="user_name">
                 <br />
             <label for="guestcount">Number of Guests in Party</label>
@@ -38,8 +38,14 @@
                 <option value="not-attending">Not Attending</option>
             </select>
                 <br />
-            <button type="submit">Submit</button>
+            <button type="submit" onClick="submitRSVP()">Submit</button>
         </div>
     </div>
+    <div class="container" id="thank-you-text">
+        <div class="column">
+            Thank you! We have received your submission.
+        </div>
+    </div>
+    <script src="../alykintner.github.io/js/rsvp.js"></script>
 </body>
 </html>

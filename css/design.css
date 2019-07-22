@@ -173,7 +173,17 @@ button {
     text-transform: uppercase;
 }
 
+/*Some other stuff*/
+#thank-you-text {
+    display: none;
+    font-size:20px;
+    margin-top:15px;
+}
 
+#guestname, #guest-message {
+    text-align:center;
+    font-size:15px;
+}
 
 
 /* media queries */
