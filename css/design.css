@@ -76,7 +76,7 @@ h2 {
     margin-bottom: 0px;
 }
 
-
+/* page format styles */
 
 .container {
     margin-bottom: 50px;
@@ -128,13 +128,6 @@ img {
 
 
 /* html form customization */
-form {
-    background-color: lightgray;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    padding: 20px;
-    box-shadow: 1px 1px 6px #000;
-}
 
 .form-fields {
     background-color: lightgray;
